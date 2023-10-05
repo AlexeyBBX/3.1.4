@@ -27,6 +27,10 @@ body {
     align-items: center;
 }
 
+.list::-webkit-scrollbar {
+    display: none;
+  }
+
 @media (min-width: 0px ) and (max-width: 767px) {
 
 .menu__icon {
@@ -92,7 +96,10 @@ h1 {
 }
 
 .list {
-    width: 1300px;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
 }
 
 .list a {
@@ -171,7 +178,10 @@ h1 {
 }
 
 .list {
-    width: 1300px;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
 }
 
 .list a {
@@ -274,7 +284,10 @@ display: flex;
 }
 
 .list {
-    width: 1300px;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
 }
 
 .list a {
@@ -299,8 +312,7 @@ display: flex;
 }
 
 .support {
-margin-top: 22px;
-margin-left: 22px;
+
 }
 
 }
